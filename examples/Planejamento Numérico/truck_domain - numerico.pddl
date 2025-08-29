@@ -1,5 +1,5 @@
 (define (domain caminhao_numerico) 
-    (:requirements :strips :typing :numeric-fluents :conditional-effects) 
+    (:requirements :strips :typing :equality :numeric-fluents :conditional-effects) 
     (:types location truck quantity - object 
             refrigerated_truck - truck ) 
             

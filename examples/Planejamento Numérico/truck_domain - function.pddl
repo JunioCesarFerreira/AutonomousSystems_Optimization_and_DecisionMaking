@@ -1,5 +1,5 @@
 (define (domain caminhao_classico) 
-    (:requirements :strips :typing) 
+    (:requirements :strips :equality :typing :numeric-fluents) 
     (:types location truck quantity - object 
             refrigerated_truck - truck ) 
             

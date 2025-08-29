@@ -1,6 +1,6 @@
 (define (domain elevador-dominio)
 
-(:requirements :typing)
+(:requirements :typing :conditional-effects :negative-preconditions :universal-preconditions :disjunctive-preconditions)
 
 (:types elevador passageiro andar -object)
 

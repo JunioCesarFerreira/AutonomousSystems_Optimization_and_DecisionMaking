@@ -1,6 +1,6 @@
 (define (domain elevador-dominio)
 
-(:requirements :typing)
+(:requirements :typing :conditional-effects)
 
 (:constants p1 p2 p3 - passageiro)
 

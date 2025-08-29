@@ -1,5 +1,6 @@
 (define (problem caminhao_classico-problema) 
     (:domain caminhao_classico) 
+    (:requirements :equality :numeric-fluents)
     (:objects ADoubleRef - refrigerated_truck 
                 BDouble - truck depot 
                 GV E BW - location ;; Declare objects for integers, up to the largest quantity ;; that appears in the problem: 
