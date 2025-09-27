@@ -1,0 +1,11 @@
+{
+  "pddl.planners": [
+    {
+      "title": "Planutils Local Service",
+      "kind": "SERVICE_SYNC",
+      "url": "http://localhost:5555/package",
+      "canConfigure": true
+    }
+  ],
+  "pddl.selectedPlanner": "Planutils Local Service"
+}

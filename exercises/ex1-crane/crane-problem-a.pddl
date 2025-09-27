@@ -1,0 +1,11 @@
+(define (problem crane-prob-a)
+  (:domain crane)
+  (:objects c1 c2 c3 - container A - place g1 - crane tr1 - truck)
+  (:init
+    (at g1 A) (truck-at tr1 A)
+    (on-ground c1 A) (on-ground c2 A) (on-ground c3 A)
+    (clear c1) (clear c2) (clear c3)
+    (handempty g1)
+  )
+  (:goal (and (on-truck c1 tr1) (on-truck c2 tr1) (on-truck c3 tr1)))
+)
